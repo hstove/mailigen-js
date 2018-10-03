@@ -17,7 +17,13 @@ const subscribe = async (email, mergeVars = {}, opts = {}) => {
     method: 'POST',
   });
 
-  return response;
+  const postData = JSON.parse(response);
+
+  if (postData.error) {
+    throw new Error(postData.error);
+  }
+
+  return postData;
 };
 
 module.exports = {
