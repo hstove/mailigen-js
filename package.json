@@ -1,6 +1,6 @@
 {
   "name": "mailigen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JS library for using the Mailigen API",
   "main": "index.js",
   "author": "Hank Stoever",
