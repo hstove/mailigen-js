@@ -1,0 +1,13 @@
+{
+  "name": "mailigen",
+  "version": "1.0.0",
+  "description": "A JS library for using the Mailigen API",
+  "main": "index.js",
+  "author": "Hank Stoever",
+  "repository": "github:hstove/mailigen-js",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
